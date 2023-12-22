@@ -1,6 +1,12 @@
+"use client"
 import Link from "next/link";
 import Footer from "../Footer/page";
+import Image from "next/image";
 import Nav  from "../Nav/nav"
+import Img from "../../../public/download (1).jpg"
+import Img2 from "../../../public/download (2).jpg"
+import Img3 from "../../../public/download.jpg"
+import Img4 from "../../../public/images1.jpg"
 export default function blog() {
     return(
 
@@ -124,7 +130,147 @@ export default function blog() {
                 </div>
             </div>
         </div>
+        <div class="bg-white py-6 sm:py-8 lg:py-12">
+  <div class="mx-auto max-w-screen-xl px-4 md:px-8">
 
+    <div class="mb-10 md:mb-16" data-aos="fade-up">
+      <h2 class="mb-4 text-center text-2xl font-bold text-gray-800 md:mb-6 lg:text-3xl">Blog</h2>
+
+      <p class="mx-auto max-w-screen-md text-center text-gray-500 md:text-lg">This is a section of some simple filler text, also known as placeholder text. It shares some characteristics of a real written text but is random or otherwise generated.</p>
+    </div>
+  
+
+    <div class="grid gap-8 sm:grid-cols-2 sm:gap-12 lg:grid-cols-2 xl:grid-cols-2 xl:gap-16">
+   
+      <div class="flex flex-col items-center gap-4 md:flex-row lg:gap-6" data-aos="fade-up">
+        <a href="#" class="group relative block h-56 w-full shrink-0 self-start overflow-hidden rounded-lg bg-gray-100 shadow-lg md:h-24 md:w-24 lg:h-40 lg:w-40">
+          <img src="https://images.unsplash.com/photo-1593508512255-86ab42a8e620?auto=format&q=75&fit=crop&w=600" loading="lazy" alt="Photo by Minh Pham" class="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110" />
+        </a>
+
+        <div class="flex flex-col gap-2" data-aos="fade-up">
+          <span class="text-sm text-gray-400">July 19, 2021</span>
+
+          <h2 class="text-xl font-bold text-gray-800">
+            <a href="#" class="transition duration-100 hover:text-indigo-500 active:text-indigo-600">New trends in Tech</a>
+          </h2>
+
+          <p class="text-gray-500">This is a section of some simple filler text, also known as placeholder text.</p>
+
+          <div data-aos="fade-up">
+            <a href="#" class="font-semibold text-indigo-500 transition duration-100 hover:text-indigo-600 active:text-indigo-700">Read more</a>
+          </div>
+        </div>
+      </div>
+    
+      <div class="flex flex-col items-center gap-4 md:flex-row lg:gap-6" data-aos="fade-up">
+        <a href="#" class="group relative block h-56 w-full shrink-0 self-start overflow-hidden rounded-lg bg-gray-100 shadow-lg md:h-24 md:w-24 lg:h-40 lg:w-40">
+          <img src="https://images.unsplash.com/photo-1550745165-9bc0b252726f?auto=format&q=75&fit=crop&w=600" loading="lazy" alt="Photo by Lorenzo Herrera" class="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110" />
+        </a>
+
+        <div class="flex flex-col gap-2" data-aos="fade-up">
+          <span class="text-sm text-gray-400">April 07, 2021</span>
+
+          <h2 class="text-xl font-bold text-gray-800">
+            <a href="#" class="transition duration-100 hover:text-indigo-500 active:text-indigo-600">Working with legacy stacks</a>
+          </h2>
+
+          <p class="text-gray-500">This is a section of some simple filler text, also known as placeholder text.</p>
+
+          <div data-aos="fade-up">
+            <a href="#" class="font-semibold text-indigo-500 transition duration-100 hover:text-indigo-600 active:text-indigo-700">Read more</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="flex flex-col items-center gap-4 md:flex-row lg:gap-6" data-aos="fade-up">
+        <a href="#" class="group relative block h-56 w-full shrink-0 self-start overflow-hidden rounded-lg bg-gray-100 shadow-lg md:h-24 md:w-24 lg:h-40 lg:w-40">
+          <img src="https://images.unsplash.com/photo-1542759564-7ccbb6ac450a?auto=format&q=75&fit=crop&w=600" loading="lazy" alt="Photo by Magicle" class="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110" />
+        </a>
+
+        <div class="flex flex-col gap-2" data-aos="fade-up">
+          <span class="text-sm text-gray-400">March 15, 2021</span>
+
+          <h2 class="text-xl font-bold text-gray-800">
+            <a href="#" class="transition duration-100 hover:text-indigo-500 active:text-indigo-600">10 best smartphones for devs</a>
+          </h2>
+
+          <p class="text-gray-500">This is a section of some simple filler text, also known as placeholder text.</p>
+
+          <div>
+            <a href="#" class="font-semibold text-indigo-500 transition duration-100 hover:text-indigo-600 active:text-indigo-700" data-aos="fade-up">Read more</a>
+          </div>
+        </div>
+      </div>
+    
+      <div class="flex flex-col items-center gap-4 md:flex-row lg:gap-6" data-aos="fade-up">
+        <a href="#" class="group relative block h-56 w-full shrink-0 self-start overflow-hidden rounded-lg bg-gray-100 shadow-lg md:h-24 md:w-24 lg:h-40 lg:w-40">
+          <img src="https://images.unsplash.com/photo-1610465299996-30f240ac2b1c?auto=format&q=75&fit=crop&w=600" loading="lazy" alt="Photo by Martin Sanchez" class="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110" />
+        </a>
+
+        <div class="flex flex-col gap-2" data-aos="fade-up">
+          <span class="text-sm text-gray-400">January 27, 2021</span>
+
+          <h2 class="text-xl font-bold text-gray-800">
+            <a href="#" class="transition duration-100 hover:text-indigo-500 active:text-indigo-600">8 High performance Notebooks</a>
+          </h2>
+
+          <p class="text-gray-500">This is a section of some simple filler text, also known as placeholder text.</p>
+
+          <div>
+            <a href="#" class="font-semibold text-indigo-500 transition duration-100 hover:text-indigo-600 active:text-indigo-700" data-aos="fade-up">Read more</a>
+          </div>
+        </div>
+      </div>
+    
+    </div>
+  </div>
+</div>
+<section class="text-gray-600 body-font">
+  <div class="container px-5 py-24 mx-auto">
+    <div class="flex flex-wrap w-full mb-20" data-aos="fade-up">
+      <div class="lg:w-1/2 w-full mb-6 lg:mb-0" >
+        <h1 class="sm:text-3xl text-2xl font-medium title-font mb-2 text-gray-900">Pitchfork Kickstarter Taxidermy</h1>
+        <div class="h-1 w-20 bg-indigo-500 rounded"></div>
+      </div>
+      <p class="lg:w-1/2 w-full leading-relaxed text-gray-500">Whatever cardigan tote bag tumblr hexagon brooklyn asymmetrical gentrify, subway tile poke farm-to-table. Franzen you probably haven't heard of them man bun deep jianbing selfies heirloom prism food truck ugh squid celiac humblebrag.</p>
+    </div>
+    <div class="flex flex-wrap -m-4">
+      <div class="xl:w-1/4 md:w-1/2 p-4" data-aos="fade-up">
+        <div class="bg-gray-100 p-6 rounded-lg">
+          <Image
+           class="h-40 rounded w-full object-cover object-center mb-6" src={Img} alt="content"/>
+          <h3 class="tracking-widest text-indigo-500 text-xs font-medium title-font">SUBTITLE</h3>
+          <h2 class="text-lg text-gray-900 font-medium title-font mb-4">Chichen Itza</h2>
+          <p class="leading-relaxed text-base">Fingerstache flexitarian street art 8-bit waistcoat. Distillery hexagon disrupt edison bulbche.</p>
+        </div>
+      </div>
+      <div class="xl:w-1/4 md:w-1/2 p-4">
+        <div class="bg-gray-100 p-6 rounded-lg" data-aos="fade-up">
+          <Image class="h-40 rounded w-full object-cover object-center mb-6" src={Img2} alt="content"/>
+          <h3 class="tracking-widest text-indigo-500 text-xs font-medium title-font">SUBTITLE</h3>
+          <h2 class="text-lg text-gray-900 font-medium title-font mb-4">Colosseum Roma</h2>
+          <p class="leading-relaxed text-base">Fingerstache flexitarian street art 8-bit waistcoat. Distillery hexagon disrupt edison bulbche.</p>
+        </div>
+      </div>
+      <div class="xl:w-1/4 md:w-1/2 p-4">
+        <div class="bg-gray-100 p-6 rounded-lg" data-aos="fade-up">
+          <Image class="h-40 rounded w-full object-cover object-center mb-6" src={Img4} alt="content"/>
+          <h3 class="tracking-widest text-indigo-500 text-xs font-medium title-font">SUBTITLE</h3>
+          <h2 class="text-lg text-gray-900 font-medium title-font mb-4">Great Pyramid of Giza</h2>
+          <p class="leading-relaxed text-base">Fingerstache flexitarian street art 8-bit waistcoat. Distillery hexagon disrupt edison bulbche.</p>
+        </div>
+      </div>
+      <div class="xl:w-1/4 md:w-1/2 p-4">
+        <div class="bg-gray-100 p-6 rounded-lg" data-aos="fade-up">
+          <Image class="h-40 rounded w-full object-cover object-center mb-6" src={Img3} alt="content"/>
+          <h3 class="tracking-widest text-indigo-500 text-xs font-medium title-font">SUBTITLE</h3>
+          <h2 class="text-lg text-gray-900 font-medium title-font mb-4">San Francisco</h2>
+          <p class="leading-relaxed text-base">Fingerstache flexitarian street art 8-bit waistcoat. Distillery hexagon disrupt edison bulbche.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
 <Footer/>
 </div>
 </>
