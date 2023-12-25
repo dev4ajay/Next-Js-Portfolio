@@ -2,7 +2,7 @@
 "use client"
 import React, { useEffect, useState   } from 'react';
 import Nav from '../Nav/nav';
-
+import axios from "axios"
 import Footer from '../Footer/page';
 
 const Blog1 = () => {
@@ -22,6 +22,10 @@ const Blog1 = () => {
 
     fetchData();
   }, []);
+
+
+
+  
 
   return (
     <div className='container mx-auto'>
