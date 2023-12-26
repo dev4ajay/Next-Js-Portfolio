@@ -2,6 +2,7 @@
 import React from 'react'
 import { useParams , usePathname } from 'next/navigation'
 import Link from 'next/link';
+
 function page() {
     const id = 1
     const {about} = useParams();

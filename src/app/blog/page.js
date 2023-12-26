@@ -69,7 +69,7 @@ getData();
                                         </div>
                                     </div>
                                 </div>
-                                <img src="https://i.ibb.co/DYxtCJq/img-1.png" className="w-full" alt="chair" data-aos="fade-up" />
+                                <Image src="https://i.ibb.co/DYxtCJq/img-1.png" className="w-full" alt="chair" data-aos="fade-up" />
                             </div>
                             <div className="sm:w-1/2 sm:mt-0 mt-4 relative" data-aos="fade-up">
                                 <div  >
@@ -85,7 +85,7 @@ getData();
                                         </div>
                                     </div>
                                 </div>
-                                <img src="https://i.ibb.co/3C5HvxC/img-2.png" className="w-full" alt="wall design"   />
+                                <Image src="https://i.ibb.co/3C5HvxC/img-2.png" className="w-full" alt="wall design"   />
                             </div>
                         </div>
                         <div className="relative" data-aos="fade-up">
@@ -102,8 +102,8 @@ getData();
                                     </div>
                                 </div>
                             </div>
-                            <img src="https://i.ibb.co/Ms4qyXp/img-3.png" alt="sitting place" className="w-full mt-8 md:mt-6 hidden sm:block" />
-                            <img className="w-full mt-4 sm:hidden" src="https://i.ibb.co/6XYbN7f/Rectangle-29.png" alt="sitting place" />
+                            <Image src="https://i.ibb.co/Ms4qyXp/img-3.png" alt="sitting place" className="w-full mt-8 md:mt-6 hidden sm:block" />
+                            <Image className="w-full mt-4 sm:hidden" src="https://i.ibb.co/6XYbN7f/Rectangle-29.png" alt="sitting place" />
                         </div>
                     </div>
                     <div className="lg:w-1/2 xl:ml-8 lg:ml-4 lg:mt-0 md:mt-6 mt-4 lg:flex flex-col justify-between" data-aos="fade-up">
@@ -121,8 +121,8 @@ getData();
                                     </div>
                                 </div>
                             </div>
-                            <img src="https://i.ibb.co/6Wfjf2w/img-4.png" alt="sitting place" className="w-full sm:block hidden" />
-                            <img className="w-full sm:hidden" src="https://i.ibb.co/dpXStJk/Rectangle-29.png" alt="sitting place" />
+                            <Image src="https://i.ibb.co/6Wfjf2w/img-4.png" alt="sitting place" className="w-full sm:block hidden" />
+                            <Image className="w-full sm:hidden" src="https://i.ibb.co/dpXStJk/Rectangle-29.png" alt="sitting place" />
                         </div>
                         <div className="sm:flex items-center justify-between xl:gap-x-8 gap-x-6 md:mt-6 mt-4" data-aos="fade-up">
                             <div className="relative w-full">
@@ -139,7 +139,7 @@ getData();
                                         </div>
                                     </div>
                                 </div>
-                                <img src="https://i.ibb.co/3yvZBpm/img-5.png" className="w-full" alt="chair" />
+                                <Image src="https://i.ibb.co/3yvZBpm/img-5.png" className="w-full" alt="chair" />
                             </div>
                             <div className="relative w-full sm:mt-0 mt-4" data-aos="fade-up">
                                 <div>
@@ -155,7 +155,7 @@ getData();
                                         </div>
                                     </div>
                                 </div>
-                                <img src="https://i.ibb.co/gDdnJb5/img-6.png" className="w-full" alt="wall design" />
+                                <Image src="https://i.ibb.co/gDdnJb5/img-6.png" className="w-full" alt="wall design" />
                             </div>
                         </div>
                     </div>
@@ -182,7 +182,7 @@ getData();
     <>
       <div className="flex flex-col items-center gap-4 md:flex-row lg:gap-6" data-aos="fade-up">
         <a href="#" className="group relative block h-56 w-full shrink-0 self-start overflow-hidden rounded-lg bg-gray-100 shadow-lg md:h-24 md:w-24 lg:h-40 lg:w-40">
-          <img src="https://images.unsplash.com/photo-1593508512255-86ab42a8e620?auto=format&q=75&fit=crop&w=600" loading="lazy" alt="Photo by Minh Pham" className="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110" />
+          <Image src="https://images.unsplash.com/photo-1593508512255-86ab42a8e620?auto=format&q=75&fit=crop&w=600" loading="lazy" alt="Photo by Minh Pham" className="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110" />
         </a>
 
 
@@ -203,7 +203,7 @@ getData();
     
       <div className="flex flex-col items-center gap-4 md:flex-row lg:gap-6" data-aos="fade-up">
         <a href="#" className="group relative block h-56 w-full shrink-0 self-start overflow-hidden rounded-lg bg-gray-100 shadow-lg md:h-24 md:w-24 lg:h-40 lg:w-40">
-          <img src="https://images.unsplash.com/photo-1550745165-9bc0b252726f?auto=format&q=75&fit=crop&w=600" loading="lazy" alt="Photo by Lorenzo Herrera" className="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110" />
+          <Image src="https://images.unsplash.com/photo-1550745165-9bc0b252726f?auto=format&q=75&fit=crop&w=600" loading="lazy" alt="Photo by Lorenzo Herrera" className="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110" />
         </a>
 
         <div className="flex flex-col gap-2" data-aos="fade-up">
@@ -223,7 +223,7 @@ getData();
 
       <div className="flex flex-col items-center gap-4 md:flex-row lg:gap-6" data-aos="fade-up">
         <a href="#" className="group relative block h-56 w-full shrink-0 self-start overflow-hidden rounded-lg bg-gray-100 shadow-lg md:h-24 md:w-24 lg:h-40 lg:w-40">
-          <img src="https://images.unsplash.com/photo-1542759564-7ccbb6ac450a?auto=format&q=75&fit=crop&w=600" loading="lazy" alt="Photo by Magicle" className="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110" />
+          <Image src="https://images.unsplash.com/photo-1542759564-7ccbb6ac450a?auto=format&q=75&fit=crop&w=600" loading="lazy" alt="Photo by Magicle" className="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110" />
         </a>
 
         <div className="flex flex-col gap-2" data-aos="fade-up">
@@ -243,7 +243,7 @@ getData();
     
       <div className="flex flex-col items-center gap-4 md:flex-row lg:gap-6" data-aos="fade-up">
         <a href="#" className="group relative block h-56 w-full shrink-0 self-start overflow-hidden rounded-lg bg-gray-100 shadow-lg md:h-24 md:w-24 lg:h-40 lg:w-40">
-          <img src="https://images.unsplash.com/photo-1610465299996-30f240ac2b1c?auto=format&q=75&fit=crop&w=600" loading="lazy" alt="Photo by Martin Sanchez" className="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110" />
+          <Image src="https://images.unsplash.com/photo-1610465299996-30f240ac2b1c?auto=format&q=75&fit=crop&w=600" loading="lazy" alt="Photo by Martin Sanchez" className="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110" />
         </a>
 
         <div className="flex flex-col gap-2" data-aos="fade-up">

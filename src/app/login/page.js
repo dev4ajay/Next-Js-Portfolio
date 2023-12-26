@@ -1,6 +1,7 @@
 import React from 'react'
 import Nav from "../Nav/nav"
 import Footer from '../Footer/page'
+import Image from 'next/image'
 function page() {
   return (
     <div className='container mx-auto'>  
@@ -12,7 +13,8 @@ function page() {
       className="g-6 flex h-full flex-wrap items-center justify-center lg:justify-between aos-init aos-animate">
       <div
         className="shrink-1 mb-12 grow-0 basis-auto md:mb-0 md:w-9/12 md:shrink-0 lg:w-6/12 xl:w-6/12">
-        <img
+        <Image
+        
           src="https://tecdn.b-cdn.net/img/Photos/new-templates/bootstrap-login-form/draw2.webp"
           className="w-full"
           alt="Sample image" />

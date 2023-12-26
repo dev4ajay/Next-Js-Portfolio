@@ -120,7 +120,7 @@ export default function Home2() {
             <span aria-hidden="true">→</span>
           </a>
         </div>
-      </div><img
+      </div><Image
   src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NzEyNjZ8MHwxfHNlYXJjaHw4fHxjb21wdXRlcnxlbnwwfDB8fHwxNjkxODE2NjY3fDA&ixlib=rb-4.0.3&q=80&w=1080"
   alt="Product screenshot"
   data-aos="fade-up"
@@ -159,7 +159,7 @@ export default function Home2() {
                 </div>
             </div>
         </div>
-        <img className="background-image-left" src={colorSharp} alt="Image" />
+        <Image className="background-image-left" src={colorSharp} alt="Image" />
     </section>
 <div className="pb-16" style={{ fontFamily: '"Lato", sans-serif' }}>
       {/* Code block starts */}
@@ -175,7 +175,7 @@ export default function Home2() {
                 <div className="w-20 h-20 relative mr-5">
                   <div className="absolute top-0 right-0 bg-indigo-100 rounded w-16 h-16 mt-2 mr-1" />
                   <div className="absolute text-white bottom-0 left-0 bg-indigo-700 rounded w-16 h-16 flex items-center justify-center mt-2 mr-3" data-aos="fade-up">
-                    <img src="https://tuk-cdn.s3.amazonaws.com/can-uploader/icon_and_text-SVG1.svg" alt="drawer" />
+                    <Image src="https://tuk-cdn.s3.amazonaws.com/can-uploader/icon_and_text-SVG1.svg" alt="drawer" />
                   </div>
                 </div>
                 <div className="w-10/12" data-aos="fade-up">
@@ -187,7 +187,7 @@ export default function Home2() {
                 <div className="w-20 h-20 relative mr-5">
                   <div className="absolute top-0 right-0 bg-indigo-100 rounded w-16 h-16 mt-2 mr-1" />
                   <div className="absolute text-white bottom-0 left-0 bg-indigo-700 rounded w-16 h-16 flex items-center justify-center mt-2 mr-3" data-aos="fade-up">
-                    <img src="https://tuk-cdn.s3.amazonaws.com/can-uploader/icon_and_text-SVG2.svg" alt="check" />
+                    <Image src="https://tuk-cdn.s3.amazonaws.com/can-uploader/icon_and_text-SVG2.svg" alt="check" />
                   </div>
                 </div>
                 <div className="w-10/12" data-aos="fade-up">
@@ -199,7 +199,7 @@ export default function Home2() {
                 <div className="w-20 h-20 relative mr-5">
                   <div className="absolute top-0 right-0 bg-indigo-100 rounded w-16 h-16 mt-2 mr-1" />
                   <div className="absolute text-white bottom-0 left-0 bg-indigo-700 rounded w-16 h-16 flex items-center justify-center mt-2 mr-3" data-aos="fade-up">
-                    <img src="https://tuk-cdn.s3.amazonaws.com/can-uploader/icon_and_text-SVG3.svg" alt="html tag" />
+                    <Image src="https://tuk-cdn.s3.amazonaws.com/can-uploader/icon_and_text-SVG3.svg" alt="html tag" />
                   </div>
                 </div>
                 <div className="w-10/12" data-aos="fade-up">
@@ -211,7 +211,7 @@ export default function Home2() {
                 <div className="w-20 h-20 relative mr-5">
                   <div className="absolute top-0 right-0 bg-indigo-100 rounded w-16 h-16 mt-2 mr-1" />
                   <div className="absolute text-white bottom-0 left-0 bg-indigo-700 rounded w-16 h-16 flex items-center justify-center mt-2 mr-3" data-aos="fade-up">
-                    <img src="https://tuk-cdn.s3.amazonaws.com/can-uploader/icon_and_text-SVG4.svg" alt="monitor" />
+                    <Image src="https://tuk-cdn.s3.amazonaws.com/can-uploader/icon_and_text-SVG4.svg" alt="monitor" />
                   </div>
                 </div>
                 <div className="w-10/12" data-aos="fade-up">
@@ -291,7 +291,7 @@ export default function Home2() {
    
 <div className="container mx-auto flex flex-wrap items-center mt-20  text-center">
         <div className="w-full md:w-3/5 lg:w-1/2 px-4" data-aos="fade-up">
-            <img src="https://picsum.photos/400/240" alt="editor" className="w-full h-auto max-w-[48rem] rounded-xl shadow-xl ring-1 ring-gray-400/10 mx-auto"/>
+            <Image src="https://picsum.photos/400/240" alt="editor" className="w-full h-auto max-w-[48rem] rounded-xl shadow-xl ring-1 ring-gray-400/10 mx-auto"/>
         </div>
 <div className="w-full md:w-2/5 lg:w-1/2 px-4 text-center md:text-left lg:pl-12" data-aos="fade-up">
 
@@ -329,7 +329,7 @@ export default function Home2() {
                                         </div>
                                     </div>
                                 </div>
-                                <img src="https://i.ibb.co/DYxtCJq/img-1.png" className="w-full" alt="chair" data-aos="fade-up" />
+                                <Image src="https://i.ibb.co/DYxtCJq/img-1.png" className="w-full" alt="chair" data-aos="fade-up" />
                             </div>
                             <div className="sm:w-1/2 sm:mt-0 mt-4 relative" data-aos="fade-up">
                                 <div  >
@@ -345,7 +345,7 @@ export default function Home2() {
                                         </div>
                                     </div>
                                 </div>
-                                <img src="https://i.ibb.co/3C5HvxC/img-2.png" className="w-full" alt="wall design"   />
+                                <Image src="https://i.ibb.co/3C5HvxC/img-2.png" className="w-full" alt="wall design"   />
                             </div>
                         </div>
                         <div className="relative" data-aos="fade-up">
@@ -362,8 +362,8 @@ export default function Home2() {
                                     </div>
                                 </div>
                             </div>
-                            <img src="https://i.ibb.co/Ms4qyXp/img-3.png" alt="sitting place" className="w-full mt-8 md:mt-6 hidden sm:block" />
-                            <img className="w-full mt-4 sm:hidden" src="https://i.ibb.co/6XYbN7f/Rectangle-29.png" alt="sitting place" />
+                            <Image src="https://i.ibb.co/Ms4qyXp/img-3.png" alt="sitting place" className="w-full mt-8 md:mt-6 hidden sm:block" />
+                            <Image className="w-full mt-4 sm:hidden" src="https://i.ibb.co/6XYbN7f/Rectangle-29.png" alt="sitting place" />
                         </div>
                     </div>
                     <div className="lg:w-1/2 xl:ml-8 lg:ml-4 lg:mt-0 md:mt-6 mt-4 lg:flex flex-col justify-between" data-aos="fade-up">
@@ -381,8 +381,8 @@ export default function Home2() {
                                     </div>
                                 </div>
                             </div>
-                            <img src="https://i.ibb.co/6Wfjf2w/img-4.png" alt="sitting place" className="w-full sm:block hidden" />
-                            <img className="w-full sm:hidden" src="https://i.ibb.co/dpXStJk/Rectangle-29.png" alt="sitting place" />
+                            <Image src="https://i.ibb.co/6Wfjf2w/img-4.png" alt="sitting place" className="w-full sm:block hidden" />
+                            <Image className="w-full sm:hidden" src="https://i.ibb.co/dpXStJk/Rectangle-29.png" alt="sitting place" />
                         </div>
                         <div className="sm:flex items-center justify-between xl:gap-x-8 gap-x-6 md:mt-6 mt-4" data-aos="fade-up">
                             <div className="relative w-full">
@@ -399,7 +399,7 @@ export default function Home2() {
                                         </div>
                                     </div>
                                 </div>
-                                <img src="https://i.ibb.co/3yvZBpm/img-5.png" className="w-full" alt="chair" />
+                                <Image src="https://i.ibb.co/3yvZBpm/img-5.png" className="w-full" alt="chair" />
                             </div>
                             <div className="relative w-full sm:mt-0 mt-4" data-aos="fade-up">
                                 <div>
@@ -415,7 +415,7 @@ export default function Home2() {
                                         </div>
                                     </div>
                                 </div>
-                                <img src="https://i.ibb.co/gDdnJb5/img-6.png" className="w-full" alt="wall design" />
+                                <Image src="https://i.ibb.co/gDdnJb5/img-6.png" className="w-full" alt="wall design" />
                             </div>
                         </div>
                     </div>

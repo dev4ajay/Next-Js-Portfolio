@@ -1,6 +1,7 @@
 import React from 'react'
 import Link  from 'next/link'
 import Nav from "../Nav/nav"
+import Image from 'next/image'
 import Footer from '../Footer/page'
 const services = () => {
   return (
@@ -88,7 +89,7 @@ const services = () => {
             <span aria-hidden="true">→</span>
           </a>
         </div>
-      </div><img
+      </div><Image
   src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NzEyNjZ8MHwxfHNlYXJjaHw4fHxjb21wdXRlcnxlbnwwfDB8fHwxNjkxODE2NjY3fDA&ixlib=rb-4.0.3&q=80&w=1080"
   alt="Product screenshot" data-aos="fade-up"
   className="w-full h-auto max-w-[48rem] rounded-xl shadow-xl ring-1 ring-gray-400/10 mt-5 mb-2 mx-auto"
@@ -164,7 +165,7 @@ const services = () => {
    
 <div className="container mx-auto flex flex-wrap items-center mt-20  text-center">
         <div className="w-full md:w-3/5 lg:w-1/2 px-4" data-aos="fade-up">
-            <img src="https://picsum.photos/400/240" alt="editor" className="w-full h-auto max-w-[48rem] rounded-xl shadow-xl ring-1 ring-gray-400/10 mx-auto"/>
+            <Image src="https://picsum.photos/400/240" alt="editor" className="w-full h-auto max-w-[48rem] rounded-xl shadow-xl ring-1 ring-gray-400/10 mx-auto"/>
         </div>
 <div className="w-full md:w-2/5 lg:w-1/2 px-4 text-center md:text-left lg:pl-12">
 
